@@ -1,0 +1,9 @@
+ #include<stdio.h>
+ int main(){
+   int a,b,max;
+   printf("enter the numbers: ");
+   scanf("%d%d",&a,&b);
+   max = a>b ? a:b;
+   printf("%d is the number", max);
+return 0;
+   } //find greater num among two//
